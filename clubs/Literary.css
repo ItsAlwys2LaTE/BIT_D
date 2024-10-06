@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(251, 205, 165);
+  background-image: url('./assets/Literary-bg.png');
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  padding: 0;
+  font-size: 3rem;
+  letter-spacing: .7rem;
+  color: rgb(255, 98, 0);
+}
+
+.club-content-2 h4 {
+  margin-bottom: 1.5rem;
+}
+
+.club-content-1 {
+  background-color: rgb(255, 238, 224);
+}
+
+.club-content-heading {
+  color: rgb(255, 98, 0);
+}
+
+.club-content-2 div {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 7rem;
+    letter-spacing: 1.4rem;
+  }
+}

@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(240, 240, 240);
+    background-image: url('./assets/PS-bg.png');
+}
+
+.club-content {
+    box-shadow: 0 0 10px -4px black;
+}
+
+.club-content-1, .club-content-gallery {
+    background-color: rgb(233, 233, 255);
+}
+
+.club-content-heading {
+    color: rgb(29, 29, 255);
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    color: rgb(29, 29, 255);
+    letter-spacing: .7rem;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    line-height: 2rem;
+}
+
+li > p > span {
+    font-weight: 550;
+}
+
+.club-content-3 li {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+    line-height: 2.3rem;
+}
+
+@media  only screen and (min-width: 768px) {
+    h1 {
+        font-size: 7rem;
+        letter-spacing: 1rem;
+    }
+}

@@ -1,0 +1,60 @@
+.carousel-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  top: px;
+}
+  
+  .mySlides img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  to {
+    opacity: 1;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .prev {
+    left: 20px;
+  }
+  
+  .next {
+    right: 20px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 3.5rem;
+    padding: 10px;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    backdrop-filter: blue(50px);
+  }
+  
+  /* Fade animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

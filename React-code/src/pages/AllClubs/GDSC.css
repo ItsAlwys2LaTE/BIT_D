@@ -1,0 +1,82 @@
+.club-father-gd body {
+    background-color: white;
+    background-image: url('../../assets/GDSC-bg.png');
+    padding-top: 160px;
+  }
+  .club-father-gd {
+    padding-top: 140px;
+    text-align: center;
+  }  
+  .club-father-gd .club-content {
+    box-shadow: 0 0 10px -4px black;
+   
+  }
+  
+ .club-father-gd  h1 {
+    font-family: "Source Code Pro", monospace;
+    font-size: 2.6rem;
+    letter-spacing: .8rem;
+  }
+  
+ .club-father-gd  h1 span:nth-child(1) {
+    color: red;
+  }
+  
+ .club-father-gd  h1 span:nth-child(2) {
+    color: rgb(255, 212, 22);
+  }
+  
+ .club-father-gd  h1 span:nth-child(3) {
+    color: green;
+  }
+  
+ .club-father-gd  h1 span:nth-child(4) {
+    color: blue;
+  }
+  
+ .club-father-gd  li {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+    line-height: 2rem;
+  }
+  
+ .club-father-gd  .club-content-1 {
+    background-color: lightgoldenrodyellow;
+  }
+  
+ .club-father-gd  .club-content-2 {
+    background-color: rgb(221, 238, 252);
+  }
+  
+ .club-father-gd  .club-content-1 > h3 {
+    color: green;
+  }
+  
+ .club-father-gd  .club-content-2 > div {
+    background-color: rgb(254, 238, 238);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+  }
+  
+ .club-father-gd  .club-content-2 > div > img {
+    width: 250px;
+    border-radius: 20px;
+  }
+  
+ .club-father-gd  .club-content-2 > div > h4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  @media only screen and (min-width: 768px) {
+  .club-father-gd   h1 {
+      font-size: 5rem;
+      letter-spacing: 1rem;
+    }
+  
+ .club-father-gd    .club-content-2 > div > img {
+      width: 500px;
+    }
+  }

@@ -1,0 +1,65 @@
+.clubs-container{
+    border-radius: 22px;
+    padding: 12px;
+    padding-top: 160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 0.78rem;
+}
+
+.clubs-list{
+    border-radius: 16px;
+    padding: 1.2rem 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background: var(--white);
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: all 0.5s;
+    width: 100%;
+    font-family: 'outfit';
+    font-weight: bold;
+}
+.clubs-list:hover{
+    background: var(--main-color);
+    color: var(--white);
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+.clubs-list> .club-icon{
+    font-size: 2.5rem;
+}
+.clubs-list > h3{
+   font-size: 1.25rem;
+   font-weight: bold;
+   width: fit-content;
+   text-align: center;
+}
+
+@media (min-width: 768px) {
+    .clubs-list{
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--white);
+        text-align: center;
+        padding: 2rem 0;
+        border-radius: 8px;
+        transition: all 0.5s;
+        width: 100%;
+        font-family: 'outfit';
+        font-weight: bold;
+    }
+    .clubs-list> .club-icon{
+        font-size: 3.5rem;
+    }   
+}

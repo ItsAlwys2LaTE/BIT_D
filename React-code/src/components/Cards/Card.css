@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  height: 250px;
+  border-radius: 19px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-logo {
+  width: 150px;
+  height: auto;
+  border-radius: 10%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.card-logo:hover {
+  transform: scale(1.1);
+}
+
+.card-name {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}

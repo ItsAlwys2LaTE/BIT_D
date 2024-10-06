@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 233, 192);
+    background-image: url('./assets/quizzbizz-bg.png');
+}
+
+h1 {
+    font-family: 'PT serif', sans-serif;
+    color: rgb(171, 131, 83);
+    font-size: 3.3rem;
+    letter-spacing: .5rem;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+    line-height: 2rem;
+}
+
+li > p > span {
+    font-weight: 550;
+}
+
+.club-content-1, .club-content-2, .club-content-gallery {
+    background-color: rgb(253, 241, 220);
+}
+
+.club-content-heading {
+    color: rgb(171, 131, 83);
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 6.8rem;
+        letter-spacing: 1.5rem;
+    }
+}

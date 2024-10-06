@@ -1,0 +1,37 @@
+body {
+  background-image: url('./assets/vista-bg.png');
+}
+
+h1 {
+  font-size: 4.4rem;
+  letter-spacing: 1rem;
+  font-family: "Playfair Display", serif;
+  color: rgb(255, 0, 0);
+}
+
+.club-content-heading, h4 {
+  color: rgb(255, 0, 0);;
+}
+
+#special-image {
+  grid-template-columns: 1fr;
+}
+
+li {
+  line-height: 2rem;
+}
+
+.club-content-1 {
+  background-color: rgb(255, 234, 234);
+}
+
+.club-content-1 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+      font-size: 6.8rem;
+      letter-spacing: 1.5rem;
+  }
+}

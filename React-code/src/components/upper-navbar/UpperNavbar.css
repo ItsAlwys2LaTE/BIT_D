@@ -1,0 +1,104 @@
+nav {
+    background: #333;
+    color: #ffffff;
+}
+
+.bit-logo {
+    width: 80px;
+    height: 60px;
+    background: transparent;
+}
+
+.upper-container {
+    background: transparent;
+    color: black;
+    width: 100%;
+    display: flex;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    transition: background 0.3s ease;
+}
+
+.nav-text h1 {
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: blink 1s step-end infinite;
+}
+
+.nav-text {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    
+    text-align: left;
+}
+.nav-text > span {
+    
+    display: flex;
+    align-items: flex-start;
+}
+
+.typed-text {
+    font-size: 10px;
+    animation: typed 5s steps(48, end);
+    align-items: self;
+}
+
+.nav-images {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-images img {
+    height: 50px;
+    object-fit: contain;
+}
+
+.nav-text span {
+    font-size: 10px;
+}
+
+.upper-container .nav-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upper-container .nav-text h1 {
+    font-size: 1rem;
+}
+
+.upper-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+nav ul img {
+    width: 2.25rem;
+}
+
+@media (min-width: 768px) {
+    nav ul img {
+        width: 4rem;
+    }
+    
+    .upper-container {
+        padding: 0 10%;
+    }
+
+    .upper-container ul {
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    .upper-container .nav-text h1 {
+        font-size: 1.7rem;
+    }
+}

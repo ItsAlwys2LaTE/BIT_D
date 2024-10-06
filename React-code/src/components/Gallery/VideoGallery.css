@@ -1,0 +1,44 @@
+.img-vid-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 14px;
+}
+.vid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 2px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.vid-container .vid-list {
+    background-color: #f0f0f0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: 12px;
+    overflow: hidden; /* Prevents scrollbar */
+    position: relative; /* Needed for aspect ratio trick */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0; /* Ensures height is defined by padding */
+}
+
+.vid-container .vid-list iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: 0; /* Ensures iframe does not add extra height */
+}
+
+@media (min-width: 768px) {
+    .vid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
